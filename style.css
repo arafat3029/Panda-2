@@ -196,7 +196,9 @@ nav {
 .contact-us-parent {
     background: rgb(255, 242, 241);
     text-align: center;
-    padding: 25px 15px;
+    padding: 42px 43px;
+    margin: 34px auto;
+    border-radius: 30px;
 }
 .contact-input-btn-parent input {
     border: none;
