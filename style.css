@@ -18,6 +18,10 @@
     color: #fff;
     font-weight: 500;
 }
+.common-section-title {
+    font-weight: 600;
+    font-size: 36px;
+}
 
 
 /* Custom CSS */
@@ -94,6 +98,9 @@ nav {
 }
 
 /* category */
+.categores {
+    margin: 64px auto;
+}
 
 .categories-card {
     display: flex;
@@ -102,6 +109,11 @@ nav {
     padding: 20px;
     border-radius: 25px;
     flex: 1;
+}
+
+.categories-card img {
+    width: 65px;
+    height: 65px;
 }
 .categories-card h3 {
     color: #ffffff;
@@ -122,4 +134,55 @@ nav {
 }
 .categories-card-3 {
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+
+
+
+/* shoec and bag section */
+.shoes-backpack-section-title-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoes-backpack-section-title-parent p {
+    color: #FF9D00;
+    font-size: 20px;
+}
+.shoes-backpack-section-title-parent h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+/* shoec */
+.shoes-section {
+    background-color: #F4F4F4;
+    padding: 50px 0;
+}
+.shoe-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card-peice {
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.shoes-card {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+}
+.shoes-card img {
+    width: 336px;
+    height: 202px;
+}
+.shoes-card .Panda-btn {
+    background: black;
+}
+/* backpack */
+.backpack-A {
+    margin-top: 65px;
 }
