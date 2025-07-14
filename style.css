@@ -186,3 +186,27 @@ nav {
 .backpack-A {
     margin-top: 65px;
 }
+
+
+
+
+
+
+/* Contect */
+.contact-us-parent {
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 25px 15px;
+}
+.contact-input-btn-parent input {
+    border: none;
+    padding: 15px 152px;
+}
+.contact-input-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+.contact-input-btn-parent .Panda-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
